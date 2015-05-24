@@ -9,10 +9,10 @@ There are 2 flavors to use this key mapping, either with a shared clipboard conf
 Shared Clipboard:
 -----------------
 
-wget https://raw.githubusercontent.com/pazams/d-is-for-delete/master/d-is-for-delete-shared-clipboard -O - >> ~/.vimrc 
+curl -sS https://raw.githubusercontent.com/pazams/d-is-for-delete/master/d-is-for-delete-shared-clipboard >> ~/.vimrc 
 
 Default Register:
 -----------------
 
-wget https://raw.githubusercontent.com/pazams/d-is-for-delete/master/d-is-for-delete-unnamed-register -O - >> ~/.vimrc
+curl -sS https://raw.githubusercontent.com/pazams/d-is-for-delete/master/d-is-for-delete-unnamed-register >> ~/.vimrc 
 
