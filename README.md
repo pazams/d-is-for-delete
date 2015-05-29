@@ -22,6 +22,7 @@ Notes
 It is a nice practice to have the "leader" key set to comma, e.g:
 
 let mapleader = ","
+
 let g:mapleader = ","
 
 This will make ",d" be your new cut command. 
