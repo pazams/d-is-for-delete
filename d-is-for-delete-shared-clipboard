@@ -9,6 +9,7 @@
 " let g:yankring_n_keys = 'Y D x X'
 
 nnoremap x "_x
+nnoremap X "_X
 nnoremap d "_d
 nnoremap D "_D
 vnoremap d "_d
