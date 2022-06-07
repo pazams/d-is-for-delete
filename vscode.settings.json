@@ -1,0 +1,41 @@
+{
+    "vim.vimrc.enable": true,
+    "vim.useSystemClipboard": true,
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["x"],
+            "after": ["\"", "_", "x"]
+        },
+        {
+            "before": ["X"],
+            "after": ["\"", "_", "X"]
+        },
+        {
+            "before": ["d"],
+            "after": ["\"", "_", "d"]
+        },
+        {
+            "before": ["D"],
+            "after": ["\"", "_", "D"]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "after": ["\"", "*", "d"]
+        },
+        {
+            "before": ["<leader>", "D"],
+            "after": ["\"", "*", "D"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["d"],
+            "after": ["\"", "_", "d"]
+        },
+        {
+            "before": ["<leader>", "d"],
+            "after": ["\"", "*", "d"]
+        }
+    ]
+}
